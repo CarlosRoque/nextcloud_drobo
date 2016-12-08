@@ -1,9 +1,7 @@
-# Not READY
+# NextCloud For Drobo5N
+After install, App will be available at http://drobo5n:8080/nextcloud/
+
 This is a set of scripts to package a DroboApp from scratch, i.e., download sources, unpackage, compile, install, and package in a TGZ file. The `master` branch contains the Drobo5N version, the `drobofs` branch contains the DroboFS version.
-
-## I just want to install the DroboApp, what do I do?
-
-Check the [releases](https://github.com/droboports/nextcloud/releases) page. If there are no releases available, then you have to compile.
 
 Keep in mind that this DroboApp requires [apache](https://github.com/droboports/apache) and the [locale](https://github.com/droboports/locale) apps to be installed.
 
@@ -14,7 +12,7 @@ First make sure that you have a [working cross-compiling VM](https://github.com/
 Log in the VM, pick a temporary folder (e.g., `~/build`), and then do:
 
 ```
-git clone https://github.com/droboports/nextcloud.git
+git clone https://github.com/CarlosRoque/nextcloud_drobo.git
 cd nextcloud
 ./build.sh
 ls -la *.tgz
@@ -28,7 +26,27 @@ Each invocation creates a log file with all the generated output.
 
 ## Sources
 
-* nextcloud: https://nextcloud.org
+* nextcloud: https://nextcloud.com/
+
+# Suggestions
+
+### Drobo Mounted Shares
+Becuase Own cloud keeps each user storage separate, you need to add each Drobo Share that you wish to share as Local Storage. To accomplish that:
+ * Enable the "External storage support" App
+ * Go to Admin>External Storage
+ * Type a Folder Name
+ * Select Local
+ * Add the path to the Share i.e. /mnt/DroboFS/Shares/< ShareName >
+ * Add any users or groups for whom the folder will be available
+ * Repeat for all desired Shares
+
+### Database
+If you are planing on having more than one user, then it is recomended that you use a database like MySQL. You can use the one built in the Drobo 5N but make sure to increase max_connections and max_allowed_packet. You can do that by setting those flags in the my.cnf file located here
+ ```
+/mnt/DroboFS/Shares/DroboApps/mysql/my.cnf
+ ```
+
+
 
 <sub>**Disclaimer**</sub>
 
