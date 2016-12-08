@@ -18,7 +18,7 @@ cache:
     - $HOME/xtools/toolchain/5n
 
 install:
-  - update-binfmts --display
+  - update-binfmts --display 
   - sudo mkdir -p -m 777 /mnt/DroboFS/Shares/DroboApps
   - mkdir -p $HOME/xtools/toolchain/5n
   - if [ ! -f $HOME/xtools/toolchain/5n/arm7-tools.tgz ]; then

@@ -5,7 +5,7 @@ origin/*
 logfile*
 *.tgz
 
-### Linux ###
+### Linux ####
 *~
 
 # KDE directory preferences

@@ -3,7 +3,7 @@ The version bundled with this package is 10.0.1 but it can easily be updated for
 
 After install, App will be available at http://drobo5n:8080/nextcloud/
 
-This is a set of scripts to package a DroboApp from scratch, i.e., download sources, unpackage, compile, install, and package in a TGZ file. The `master` branch contains the Drobo5N version, the `drobofs` branch contains the DroboFS version.
+This is a set of scripts to package a DroboApp from scratch, i.e., download sources, unpackage, compile, install, and package in a TGZ file.
 
 Keep in mind that this DroboApp requires [apache](https://github.com/droboports/apache) and the [locale](https://github.com/droboports/locale) apps to be installed.
 
@@ -25,6 +25,16 @@ Each invocation creates a log file with all the generated output.
 * `./build.sh distclean` removes everything, including downloaded files.
 * `./build.sh clean` removes everything but downloaded files.
 * `./build.sh package` repackages the DroboApp, without recompiling.
+
+## Installing
+Just copy the genereated nextcloud.tgz file to:
+```
+/mnt/DroboFS/Shares/DroboApps
+```
+Restart your drobo. The app will be available here
+```
+http://drobo5n:8080/nextcloud/
+```
 
 ## Sources
 
