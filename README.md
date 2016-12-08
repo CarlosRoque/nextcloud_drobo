@@ -1,4 +1,6 @@
 # NextCloud For Drobo5N
+The version bundled with this package is 10.0.1 but it can easily be updated for a newer version
+
 After install, App will be available at http://drobo5n:8080/nextcloud/
 
 This is a set of scripts to package a DroboApp from scratch, i.e., download sources, unpackage, compile, install, and package in a TGZ file. The `master` branch contains the Drobo5N version, the `drobofs` branch contains the DroboFS version.
