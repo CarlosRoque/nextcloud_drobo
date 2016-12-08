@@ -3,7 +3,7 @@ This is a set of scripts to package a DroboApp from scratch, i.e., download sour
 
 ## I just want to install the DroboApp, what do I do?
 
-Check the [releases](https://github.com/droboports/owncloud/releases) page. If there are no releases available, then you have to compile.
+Check the [releases](https://github.com/droboports/nextcloud/releases) page. If there are no releases available, then you have to compile.
 
 Keep in mind that this DroboApp requires [apache](https://github.com/droboports/apache) and the [locale](https://github.com/droboports/locale) apps to be installed.
 
@@ -14,8 +14,8 @@ First make sure that you have a [working cross-compiling VM](https://github.com/
 Log in the VM, pick a temporary folder (e.g., `~/build`), and then do:
 
 ```
-git clone https://github.com/droboports/owncloud.git
-cd owncloud
+git clone https://github.com/droboports/nextcloud.git
+cd nextcloud
 ./build.sh
 ls -la *.tgz
 ```
@@ -28,7 +28,7 @@ Each invocation creates a log file with all the generated output.
 
 ## Sources
 
-* owncloud: https://owncloud.org
+* nextcloud: https://nextcloud.org
 
 <sub>**Disclaimer**</sub>
 

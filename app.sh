@@ -1,5 +1,5 @@
-### OWNCLOUD ###
-_build_owncloud() {
+### NEXTCLOUD ###
+_build_nextcloud() {
 local VERSION="10.0.1"
 local FOLDER="nextcloud"
 local FILE="${FOLDER}-${VERSION}.tar.bz2"
@@ -16,6 +16,6 @@ cp -vfa "target/${FOLDER}/.htaccess" "${DEST}/app/"
 }
 
 _build() {
-  _build_owncloud
+  _build_nextcloud
   _package
 }
