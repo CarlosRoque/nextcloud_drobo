@@ -1,20 +1,20 @@
 #!/usr/bin/env sh
 #
-# Service.sh for owncloud
+# Service.sh for nextcloud
 
 # import DroboApps framework functions
 . /etc/service.subr
 
 framework_version="2.1"
-name="owncloud"
-version="8.2.2"
-description="ownCloud is a self-hosted file sync and share server"
+name="nextcloud"
+version="10.0.1"
+description="nextCloud is a self-hosted file sync and share server"
 depends="apache locale"
 webui="WebUI"
 
 prog_dir="$(dirname "$(realpath "${0}")")"
-conffile="${prog_dir}/etc/owncloudapp.conf"
-apachefile="${DROBOAPPS_DIR}/apache/conf/includes/owncloudapp.conf"
+conffile="${prog_dir}/etc/nextcloudapp.conf"
+apachefile="${DROBOAPPS_DIR}/apache/conf/includes/nextcloudapp.conf"
 daemon="${DROBOAPPS_DIR}/apache/service.sh"
 tmp_dir="/tmp/DroboApps/${name}"
 pidfile="${tmp_dir}/pid.txt"

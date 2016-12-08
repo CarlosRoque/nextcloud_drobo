@@ -1,1 +1,1 @@
-/mnt/DroboFS/System/DNAS/configs/shares.conf IN_CREATE,IN_DELETE,IN_CLOSE_WRITE /mnt/DroboFS/Shares/DroboApps/owncloud/service.sh reload
+/mnt/DroboFS/System/DNAS/configs/shares.conf IN_CREATE,IN_DELETE,IN_CLOSE_WRITE /mnt/DroboFS/Shares/DroboApps/nextcloud/service.sh reload

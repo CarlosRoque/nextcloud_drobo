@@ -1,4 +1,4 @@
-/tmp/DroboApps/owncloud/log.txt {
+/tmp/DroboApps/nextcloud/log.txt {
   missingok
   notifempty
   size 50k
@@ -7,7 +7,7 @@
   copytruncate
 }
 
-/tmp/DroboApps/owncloud/access.log {
+/tmp/DroboApps/nextcloud/access.log {
   missingok
   notifempty
   size 50k
@@ -16,7 +16,7 @@
   copytruncate
 }
 
-/tmp/DroboApps/owncloud/error.log {
+/tmp/DroboApps/nextcloud/error.log {
   missingok
   notifempty
   size 50k
@@ -25,7 +25,7 @@
   copytruncate
 }
 
-/mnt/DroboFS/System/owncloud/data/owncloud.log {
+/mnt/DroboFS/System/nextcloud/data/nextcloud.log {
   missingok
   notifempty
   size 100k
