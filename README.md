@@ -1,5 +1,5 @@
 # NextCloud For Drobo5N
-The version bundled with this package is 10.0.1 but it can easily be updated for a newer version
+The version bundled with this package is 11.0.1 but it can easily be updated for a newer version
 
 After install, App will be available at http://drobo5n:8080/nextcloud/
 
