@@ -7,7 +7,7 @@
 
 framework_version="2.1"
 name="nextcloud"
-version="10.0.1"
+version="11.0.0"
 description="nextCloud is a self-hosted file sync and share server"
 depends="apache locale"
 webui="WebUI"

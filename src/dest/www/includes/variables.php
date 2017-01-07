@@ -1,7 +1,7 @@
 <?php
 $app = "nextcloud";
 $appname = "nextCloud";
-$appversion = "10.0.1";
+$appversion = "11.0.0";
 $appsite = "https://nextcloud.org/";
 $apphelp = "https://nextcloud.org/support/";
 
