@@ -1,3 +1,41 @@
+<h3 id="11-0-0">Version 11.0.0 <small>December 13 2016</small></h3>
+<h3>Over 1000 changes were merged, among them:</h3>
+<ul>
+  <li>Security improvements
+    <ul>
+      <li>support for cutting edge browser security features CSP 3.0 and Same-site Cookies</li>
+      <li>support for Kerberos authentication and Two-factor Authentication providers based on Universal 2nd Factor and Time-based One-Time Password</li>
+      <li>expanded brute force protection to all API access points</li>
+      <li>more secure Federation through use of SSL/TLS</li>
+      <li>access rights on app-specific login tokens</li>
+      <li>Our new app store automatically checks apps and enforces signatures</li>
+    </ul>
+  </li>
+  <li>Scalability and performance improvements
+    <ul>
+      <li>Reduce database load up to 80%, speed up small files transfer up to 60%</li>
+      <li>Introduce Multi-bucket support for better scalability on Object Stores</li>
+      <li>Improved preview handling, including no more duplicates for each user</li>
+      <li>Faster Collabora Online startup</li>
+      <li>Faster loading of large folders</li>
+    </ul>
+  </li>
+  <li>Apache Solr based Full Text Search with Nextant app</li>
+  <li>Next gen Federation supports optionally storing info in global 'addressbook' for easy finding of users</li>
+  <li>Experimental Spreed app integrates audio/video chat</li>
+  <li>Many more smaller changes like 'move file' option in menu, scrollable pdf previews and more</li>
+</ul>
+<h3 id="10-0-2">Version 10.0.2 <small>December 9 2016</small></h3>
+<h3> Some 90 changes were merged, among them:</h3>
+<ul>
+  <li>fix compatibility with older Firefox versions</li>
+  <li>check what PHP version you run before upgrade</li>
+  <li>make file system work with some specific settings</li>
+  <li>fix small UI glitches</li>
+  <li>translation improvements</li>
+  <li>and more.</li>
+</ul>
+<p> This release fixes a number of security issues, details of which you can expect after our usual 2 week waiting period. We suggest upgrading before that time!</p>
 <h3 id="10-0-1">Version 10.0.1 <small>September 28 2016</small></h3>
 <h4>Core</h4>
 <h5>Enhancements</h5>
