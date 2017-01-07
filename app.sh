@@ -13,6 +13,7 @@ popd
 mkdir -p "${DEST}/app"
 cp -vfaR "target/${FOLDER}/"* "${DEST}/app/"
 cp -vfa "target/${FOLDER}/.htaccess" "${DEST}/app/"
+cp -vfa "target/${FOLDER}/.user.ini" "${DEST}/app/"
 }
 
 _build() {
