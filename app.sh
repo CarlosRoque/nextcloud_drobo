@@ -1,6 +1,6 @@
 ### NEXTCLOUD ###
 _build_nextcloud() {
-local VERSION="11.0.0"
+local VERSION="15.0.2"
 local FOLDER="nextcloud"
 local FILE="${FOLDER}-${VERSION}.tar.bz2"
 local URL="https://download.nextcloud.com/server/releases/${FILE}"
